@@ -1,0 +1,20 @@
+* {
+
+    margin: 0;
+    font-family: Funnel Sans,Arial;
+}
+
+body {
+
+    background-image: url(img/background.webp);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+   
+    color: black;
+}

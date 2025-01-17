@@ -1,0 +1,151 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    min-height: 89.5vh;
+
+
+}
+.background-login {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    width: 430px;
+    height: 430px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: rgba(128, 128, 128, 0.358);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.403);
+}
+
+h1 {
+
+    height: 10%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.username-box {
+
+    width: 60%;
+    height: 10%;
+    font-size: 18px;
+    border: none;
+    padding: 3px 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+
+
+
+}
+
+.password-box {
+
+    width: 60%;
+    height: 10%;
+    font-size: 18px;
+    border: none;
+    padding: 3px 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+
+
+.login-button {
+
+    border: none;
+
+    font-size: 20px;
+    border-radius: 30px;
+    width: 70%;
+    height: 10%;
+    padding: 7px 0;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgba(169, 169, 169, 0.631);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-button:hover {
+
+    background-color: white;
+    color: gray;
+}
+
+.remember-forgot {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.forgot {
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.forgot:hover {
+
+    text-decoration: underline;
+}
+
+.remember-forgot label input {
+
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+.remember {
+
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.register-link {
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-register {
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.register-link p a {
+
+    text-decoration: none;
+    color: rgb(34, 28, 28);
+    margin-left: 8px;
+
+}
+
+.register-link p a:hover {
+
+    text-decoration: underline;
+}

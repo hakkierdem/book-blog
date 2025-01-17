@@ -1,0 +1,123 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #B6A28E;
+    box-shadow: 0 1px 10px black;
+    height: 100px;
+    padding: 0 10px;
+}
+
+
+
+.left-section {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    gap: 20px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    flex: 1; 
+    padding: 0 10px;
+}
+
+
+.right-section {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    gap: 20px;
+}
+
+.account-icon {
+
+    font-size: 60px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 1px;
+    border: solid;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.account-icon:hover {
+
+    transform: translateY(-3px);
+}
+
+.login-icon {
+
+    font-size: 60px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    transition: 0.3s ease;
+
+}
+
+.login-icon:hover {
+
+    transform: translateY(-3px);
+}
+
+
+.home-icon {
+
+    font-size: 60px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.home-icon:hover {
+
+    transform: translateY(-3px);
+}
+
+.books-icon {
+
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.books-icon:hover {
+
+    transform: translateY(-3px);
+}
+
+.search-bar {
+
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.431);
+    transition: all 0.3s ease;
+
+    flex: 1;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.search-bar:focus {
+
+    outline: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+
